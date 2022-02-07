@@ -1,0 +1,75 @@
+.recomended-products {
+  margin: 120px auto;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    @media screen and (max-width: 991px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 80px;
+      .column {
+        height: 180px !important;
+        justify-content: space-around;
+        img {
+          width: 220px !important;
+        }
+        .content {
+          text-align: center !important;
+          h1 {
+            font-size: 32px !important;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 575px) {
+      .column {
+        flex-direction: column !important;
+        height: auto !important;
+        img {
+          width: 80% !important;
+          margin-top: -20% !important;
+        }
+      }
+    }
+    .column {
+      height: 150px;
+      gap: 30px;
+      background: #ffc12c;
+      border-radius: 16px;
+      padding: 30px;
+      transition: all .3s;
+      &:hover{
+          transform: translateY(-5%);
+          box-shadow: 0 20px 30px rgba(160, 160, 160, 0.295);
+          img{
+              transform: translateY(-10%);
+          }
+      }
+      img {
+        width: 180px;
+        transition: all .3s;
+        margin-top: -15%;
+      }
+      .content {
+        h1 {
+          font-family: "Varela Round";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 36px;
+          color: #ffffff;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    & > div:last-child {
+      background-color: #fb416b;
+      flex-direction: row-reverse;
+      .content {
+        text-align: right;
+      }
+    }
+  }
+}

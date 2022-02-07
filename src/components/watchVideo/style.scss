@@ -1,0 +1,77 @@
+.watchVideo {
+  background-image: url(../../images/ourstory.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  & * {
+    z-index: 999;
+  }
+  & > div {
+    gap: 15px;
+    position: initial;
+    z-index: 99;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    .topline {
+      color: #ffffff;
+    }
+    .title {
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      color: #ffffff;
+    }
+    p {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      width: 90%;
+      max-width: 800px;
+    }
+    button {
+      background-color: #fff0;
+      border: none;
+      margin-top: 25px;
+      cursor: pointer;
+    }
+  }
+  &::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.075);
+    z-index: 1 !important;
+  }
+}
+.video-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .backdrop{
+        top: 0;
+        left: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.637);
+        z-index: 101;
+    }
+    .video{
+        z-index: 102;
+        width: 90%;
+        max-width: 600px;
+        &>*{
+            width: 100% !important;
+        }
+    }
+}

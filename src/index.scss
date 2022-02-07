@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Varela+Round&display=swap");
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}
+.call-to-action {
+  padding: 8px 24px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #a5c926;
+  border-radius: 30px;
+  transition: all 0.3s;
+  &.big {
+    border-radius: 24px;
+    padding: 12px 28px;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 575px) {
+    padding: 10px 24px;
+  }
+  &:hover {
+    background-color: rgb(129, 129, 129) !important;
+    color: #ffffff;
+  }
+}
+.title {
+  @media screen and (max-width: 575px) {
+    font-size: 24px;
+  }
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  color: #111111;
+}
+.topline {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #a5c926;
+}

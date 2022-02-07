@@ -1,0 +1,17 @@
+.social-networks {
+    padding: 0 !important;
+    margin: 0 !important;
+    @media screen and (max-width: 575px) {
+      display: none;
+    }
+    a {
+      transition: all 0.3s;
+      img {
+        height: 15px;
+        margin: 0px 8px;
+      }
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
