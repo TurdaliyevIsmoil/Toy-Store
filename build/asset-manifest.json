@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1368ae00.css",
+    "main.js": "/static/js/main.27456037.js",
+    "static/media/hero.png": "/static/media/hero.f839b06e4027dada63ab.png",
+    "static/media/ourstory.png": "/static/media/ourstory.4c06de3c55492464f306.png",
+    "static/media/about.png": "/static/media/about.3cd881dddf2bcbc545aa.png",
+    "static/media/taddy.png": "/static/media/taddy.f350bfdbd19b40e9a755.png",
+    "static/media/instagram-5.png": "/static/media/instagram-5.c00992484124223fc62a.png",
+    "static/media/shape.png": "/static/media/shape.86b2296c70a45680dfbd.png",
+    "static/media/instagram-2.png": "/static/media/instagram-2.38145e946a8b603e6c9f.png",
+    "static/media/instagram-3.png": "/static/media/instagram-3.94b55f99e44f960602a5.png",
+    "static/media/instagram-6.png": "/static/media/instagram-6.d1c190e0168596c86acd.png",
+    "static/media/friend.png": "/static/media/friend.28385518b44a5951caf2.png",
+    "static/media/instagram-1.png": "/static/media/instagram-1.89b33e8cce1096701f79.png",
+    "static/media/dog.png": "/static/media/dog.35de6a18f533f150c33f.png",
+    "static/media/plus.png": "/static/media/plus.3482ef60a32c68084af0.png",
+    "static/media/machine.png": "/static/media/machine.0b1c600f56800cc21bb4.png",
+    "static/media/camera.png": "/static/media/camera.6e808700957a9567e47c.png",
+    "static/media/instagram-4.png": "/static/media/instagram-4.7135ac0a6c31fba8e0af.png",
+    "static/media/rabbit.png": "/static/media/rabbit.12b2ff9b63bafcbf1cbb.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.1368ae00.css.map": "/static/css/main.1368ae00.css.map",
+    "main.27456037.js.map": "/static/js/main.27456037.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1368ae00.css",
+    "static/js/main.27456037.js"
+  ]
+}

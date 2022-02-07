@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Html / Css ( SCSS ) template in React js (React multi carusel library and no other library in styling)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## https://toyst0ry.web.app/ Online version
 
 ## Available Scripts
 
